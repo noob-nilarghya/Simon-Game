@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Favicon  -->
+  <link rel="icon" href="image/favicon.ico">
+
+  <!-- my CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <h1 class="header">𝕿𝖍𝖊 𝕾𝖎𝖒𝖔𝖓 𝕲𝖆𝖒𝖊</h1>
+
+  <div class="container">
+    <h1 id="level-title">Press start to play</h1>
+    <button class="button-63 start" role="button">Start</button>
+
+    <!-- BOOTSRAP GRID  ( 2 row, 2 col in each row === 4 button)-->
+    <div class="row">
+
+      <div class="col-lg-6 col-md-6 col-sm-6 ">
+        <div type="button" id="green" class="btn green "></div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 ">
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 col-md-6 col-sm-6 ">
+        <div type="button" id="yellow" class="btn yellow "></div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 ">
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <a href="https://www.facebook.com/profile.php?id=100005255746624" target="_blank"> <img class="fb"
+        src="image/facebook.png" alt=""></a>
+    <a href="https://github.com/noob-nilarghya" target="_blank"><img class="git" src="image/github.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/nilarghya-roy-6a7637201/" target="_blank"><img class="in"
+        src="image/linkedin (1).png" alt=""></a>
+    <p class="copy"> © 2020-24 Shovan Kr. Roy | Jhumpa Roy</p>
+    <p class="love">Made with 💖 by NIL</p>
+  </div>
+
+  <!-- jQuery embeded -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- my JavaScript -->
+  <script src="game.js"></script>
+</body>
+
+</html>

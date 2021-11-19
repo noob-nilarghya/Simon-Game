@@ -1,0 +1,160 @@
+
+.header {
+  font-size: 300%;
+  padding-bottom: 1%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  background: url("image/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+  background-attachment: fixed;
+  /* background-color: #A7E9AF; */
+}
+
+#level-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  margin: 3% 5%;
+  color: hsl(187, 100%, 50%);
+  text-shadow: 1px 1px 2px black;
+}
+
+.container {
+  display: block;
+  width: 60%;
+  margin: auto;
+
+  height: 100%;
+  /* background: url("image/background.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+  background-attachment: fixed;
+  border: 3px black solid;
+}
+
+.btn {
+  /* 4 button design [UNDER BOOTSRAP GRID-- see in HTML */
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  box-shadow: 0 0 30px rgb(95, 85, 85);
+  border-radius: 30%;
+  animation: iconAnime 1.5s linear infinite alternate;
+}
+@keyframes iconAnime {
+  from{
+      transform: scale(1.0);
+  }
+  to{
+      transform: scale(1.05);
+  }
+}
+
+.game-over {
+  /* game over animation */
+  background-color: red;
+  opacity: 0.8;
+  z-index: 2;
+}
+
+.red {
+  background-color: rgb(214, 91, 91);
+}
+
+.green {
+  background-color: rgb(108, 228, 108);
+}
+
+.blue {
+  background-color: rgb(100, 142, 231);
+}
+
+.yellow {
+  background-color: rgb(233, 233, 59);
+}
+
+.pressed {
+  /* button pressed animation */
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Copied Code */
+.button-63 {
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 50px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  line-height: 0.4em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: auto;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 150px;
+  }
+}
+/* copied code ended */
+
+.hide {  /*To hide start button during game play time*/
+  visibility: hidden;
+}
+
+.show { /* To show start button during game over time & initial start time */
+  visibility: visible ;
+}
+
+.footer{
+  padding-top: 2%;
+  text-align: center;
+  color: black;
+  font-weight:600;
+}
+.fb{
+  padding-right: 2%;
+  opacity: 0.8;
+}
+.insta{
+  padding-right: 2%;
+  opacity: 0.8;
+}
+.git{
+  padding-right: 2%;
+  opacity: 0.8;
+}
+.copy{
+  padding-top: 1.5%;
+}
+.love{
+  padding-bottom: 1%;
+}
